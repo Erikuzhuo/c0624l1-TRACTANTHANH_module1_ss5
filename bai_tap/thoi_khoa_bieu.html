@@ -5,12 +5,13 @@
     <title>Thời Khóa Biểu</title>
     <style>
         body{
-            padding: 30%;
+            margin: 10px;
         }
         table{
-            width: 100%;
+            width: 50%;
             border-collapse: collapse;
-            margin: 5px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .table2{
             table,th,td {
@@ -20,26 +21,17 @@
         .table1{
                 color: blue;
         }
-        h1{
-            color: blue;
-            text-align: center;
+        .td {
+            vertical-align: top;
         }
     </style>
 </head>
 <body>
-<h1>Thời Khóa Biểu</h1>
 <table class="table1">
+    <caption style="color: blue"><h1>Thời Khóa Biểu</h1></caption>
     <tr>
-        <td>Lớp T0908I</td>
-        <td style="text-align: right">Thời Gian Học: 13h30 - 17h30</td>
-    </tr>
-    <tr>
-        <td>Giáo Viên: KhoaNV</td>
-        <td style="text-align: right">Ngày Học: Thứ 3,5,7</td>
-    </tr>
-    <tr>
-        <td>Phòng Học:Class3/Lab3</td>
-    </tr>
+        <td class="td">Lớp T0908I <br>Giáo Viên: KhoaNV<br>Phòng Học:Class3/Lab3</td>
+        <td class="td" style="text-align: right">Ngày Học: Thứ 3,5,7<br>Thời Gian Học: 13h30 - 17h30</td>
 </table>
 
 <table class="table2">
